@@ -1,0 +1,28 @@
+.create{
+    height: 70px;
+    width: 70px;
+    background-color: blueviolet;
+    border-radius: 100px;
+    bottom: 44px;
+    right: 44px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.add-icon{
+    color: white;
+}
+
+DialogContent {
+    width: 2000px;
+    height: 80%;
+    background-color: antiquewhite;
+}
+
+.tit{
+    height: 400px;
+    width: 800px;
+}

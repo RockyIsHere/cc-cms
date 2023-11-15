@@ -1,0 +1,72 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    margin: 0px;
+    padding: 0px;
+    width: 12%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #6037A4;
+    /* position: fixed; */
+}
+
+.body{
+    flex: 1;
+    /* margin-left: 12%; */
+    height: 100vh;
+}
+.top-section{
+    height: 120px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.logo-card{
+    width: 80%;
+    height: 120px;
+    /* fill: rebeccapurple; */
+}
+
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.tab-card{
+    /* height: 42px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.tab-card:not(.enbled):hover{
+    background-color: rgba(160, 106, 248, 0.5);
+}
+.enbled{
+    background-color: rgba(160, 106, 248, 1);
+    font-weight: 400;
+}
+
+
+.tab-icon{
+    height: 40px;
+    width: 28px;
+    padding-right: 16px;
+    fill: aqua;
+}
+
+
+.bottom-section{
+    height: 40%;
+}
+

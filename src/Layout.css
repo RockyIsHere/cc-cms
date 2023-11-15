@@ -1,0 +1,63 @@
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    background-color:white;
+}
+
+
+.sidebar{
+    height: 100%;
+    background-color:#6037A4;
+    border-right: 1px solid black;
+    flex: 1 0 14%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* top: 0; */
+}
+
+
+
+.logo-card{
+    height: 120px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.app-logo{
+    height: 80px;
+    width: 72%;
+}
+
+.content{
+    width:  86%;
+    overflow-y: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebar-menu {
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: s;
+}
+.top{
+    height: 60%;
+}
+
+.info {
+    position: relative;
+    bottom: 0;
+}

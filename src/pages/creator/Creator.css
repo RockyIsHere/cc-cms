@@ -1,0 +1,28 @@
+.creator{
+    display: flex;
+    flex-direction: column;
+    background-color:aqua;
+    width: 88%;
+}
+
+.creator-header{
+    height: 70px;
+    width: 100%;
+    padding: 20px 24px;
+    background-color: aquamarine;
+}
+
+.creator-body{
+    flex: 1;
+    background-color: red;
+}
+
+.right-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.box-1{
+    height: 200px;
+}
